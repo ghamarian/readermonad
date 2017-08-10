@@ -1,0 +1,407 @@
+ ../statemonadstack
+ ./stack exec a.o
+ /Users/amir/.stack/
+ /usr/local/bin/stack env
+ /usr/local/bin/stack path
+ brew install haskell-stack
+ brew uninstall stack
+ brew update stack
+ brew upgrade haskell-stack
+ brew upgrade stack
+ brw upgrade stack
+ brwe link ack\n ant\n apache-spark\n app-engine-python\n aspell\n atk\n autoconf\n autojump\n automake\n bash\n bash-completion\n cairo\n cask\n cassandra\n ccze\n cflow\n chkrootkit\n cscope\n ctags\n djvu2pdf\n djvulibre\n emacs\n enchant\n evince\n findutils\n fontconfig\n freetype\n gawk\n gdb\n gdbm\n gdk-pixbuf\n ghostscript\n gist\n git\n git-extras\n glib\n glib-networking\n gmp\n gnome-icon-theme\n gnu-indent\n gnutls\n go\n gobject-introspection\n gradle\n gsettings-desktop-schemas\n gtk+3\n harfbuzz\n haskell-stack\n hicolor-icon-theme\n hub\n iproute2mac\n jbig2dec\n jpeg\n jq\n kdiff3\n libepoxy\n libevent\n libgcrypt\n libgpg-error\n libksba\n libnet\n libpng\n libsecret\n libsoup\n libspectre\n libtasn1\n libtiff\n libtool\n libyaml\n little-cms2\n lzo\n macvim\n minidjvu\n mit-scheme\n mpfr\n mtr\n netcat\n nettle\n nmap\n node\n oniguruma\n openjpeg\n p7zip\n pango\n parallel\n pcre\n perl\n pixman\n pkg-config\n poppler\n postgresql\n pstree\n pyenv\n python\n python3\n qt\n rbenv\n resty\n rlwrap\n ruby\n ruby-build\n sbt\n scala\n shared-mime-info\n smlnj\n spark\n sqlitebrowser\n subversion\n tcpdump\n tcptraceroute\n the_silver_searcher\n tig\n tmux\n tomcat\n tree\n vala\n vcprompt\n vim\n watch\n webkitgtk\n webp\n wget\n wildfly-as\n xz\n z\n zsh
+ caat stack.yaml
+ cat -n stack.yaml
+ cat ../statemonad/stack.yaml
+ cat ./global-project/stack.yaml
+ cat global-project/stack.yaml
+ cat src/preemptiveJstack/ActivateJstack.java
+ cat stack.yaml
+ cat stack.yaml | grep -n lts
+ cat stack.yaml | grep lts
+ cat stackprj.cabal
+ cd ../.stack
+ cd .stack
+ cd .stack-work/dist/x86_64-osx/Cabal-1.22.5.0
+ cd .stack-work/dist/x86_64-osx/Cabal-1.24.0.0/build/hoogle/
+ cd .stack-work/install/x86_64-osx/lts-3.20/7.10.2/doc
+ cd .stack-work/install/x86_64-osx/lts-5.1/7.10.3/pkgdb
+ cd .stack-work/install/x86_64-osx/lts-5.15/7.10.3/bin
+ cd .stack/global-project/.stack-work/
+ cd /Users/amir/.stack/programs/x86_64-osx/
+ cd /Users/amir/.stack/programs/x86_64-osx/ghc-7.10.3/bin
+ cd /Users/amir/.stack/programs/x86_64-osx/ghc-8.0.1/bin
+ cd /Users/amir/nictasolution/course/.stack-work/install/x86_64-osx/lts-3.20/7.10.2/bin
+ cd global-project/.stack-work/
+ cd jstack
+ cd stackprj
+ cd statemonadstack
+ cd ~/.stack/programs/x86_64-osx/ghc-7.10.3/bin
+ cp global-project/stack.yaml .
+ cp haskell/course/stack.yaml nictasolution
+ echo ".... .." | stack exec morse from
+ echo "hello" | stack exec Morse from
+ echo "hello" | stack exec morse
+ echo "hello" | stack exec morse from
+ echo "hello" | stack exec morse to
+ echo "hello" | stack exec morse to | stack exec morse from
+ echo "hi" | stack exec Morse from
+ echo "hi" | stack exec morse from
+ echo .stack-work/ > .gitignore
+ find . -name "stack" -type d
+ find . -name "stack" -type d -maxdepth 3
+ find . -name "stack" -type d -maxdepth 4
+ find . -name "stack.yaml"
+ for i in ( ack\n ant\n apache-spark\n app-engine-python\n aspell\n atk\n autoconf\n autojump\n automake\n bash\n bash-completion\n cairo\n cask\n cassandra\n ccze\n cflow\n chkrootkit\n cscope\n ctags\n djvu2pdf\n djvulibre\n emacs\n enchant\n evince\n findutils\n fontconfig\n freetype\n gawk\n gdb\n gdbm\n gdk-pixbuf\n ghostscript\n gist\n git\n git-extras\n glib\n glib-networking\n gmp\n gnome-icon-theme\n gnu-indent\n gnutls\n go\n gobject-introspection\n gradle\n gsettings-desktop-schemas\n gtk+3\n harfbuzz\n haskell-stack\n hicolor-icon-theme\n hub\n iproute2mac\n jbig2dec\n jpeg\n jq\n kdiff3\n libepoxy\n libevent\n libgcrypt\n libgpg-error\n libksba\n libnet\n libpng\n libsecret\n libsoup\n libspectre\n libtasn1\n libtiff\n libtool\n libyaml\n little-cms2\n lzo\n macvim\n minidjvu\n mit-scheme\n mpfr\n mtr\n netcat\n nettle\n nmap\n node\n oniguruma\n openjpeg\n p7zip\n pango\n parallel\n pcre\n perl\n pixman\n pkg-config\n poppler\n postgresql\n pstree\n pyenv\n python\n python3\n qt\n rbenv\n resty\n rlwrap\n ruby\n ruby-build\n sbt\n scala\n shared-mime-info\n smlnj\n spark\n sqlitebrowser\n subversion\n tcpdump\n tcptraceroute\n the_silver_searcher\n tig\n tmux\n tomcat\n tree\n vala\n vcprompt\n vim\n watch\n webkitgtk\n webp\n wget\n wildfly-as\n xz\n z\n zsh); do brew link $i; done
+ for i in apache-spark\n app-engine-python\n aspell\n atk\n autoconf\n autojump\n automake\n bash\n bash-completion\n cairo\n cask\n cassandra\n ccze\n cflow\n chkrootkit\n cscope\n ctags\n djvu2pdf\n djvulibre\n emacs\n enchant\n evince\n findutils\n fontconfig\n freetype\n gawk\n gdb\n gdbm\n gdk-pixbuf\n ghostscript\n gist\n git\n git-extras\n glib\n glib-networking\n gmp\n gnome-icon-theme\n gnu-indent\n gnutls\n go\n gobject-introspection\n gradle\n gsettings-desktop-schemas\n gtk+3\n harfbuzz\n haskell-stack\n hicolor-icon-theme\n hub\n iproute2mac\n jbig2dec\n jpeg\n jq\n kdiff3\n libepoxy\n libevent\n libgcrypt\n libgpg-error\n libksba\n libnet\n libpng\n libsecret\n libsoup\n libspectre\n libtasn1\n libtiff\n libtool\n libyaml\n little-cms2\n lzo\n macvim\n minidjvu\n mit-scheme\n mpfr\n mtr\n netcat\n nettle\n nmap\n node\n oniguruma\n openjpeg\n p7zip\n pango\n parallel\n pcre\n perl\n pixman\n pkg-config\n poppler\n postgresql\n pstree\n pyenv\n python\n python3\n qt\n rbenv\n resty\n rlwrap\n ruby\n ruby-build\n sbt\n scala\n shared-mime-info\n smlnj\n spark\n sqlitebrowser\n subversion\n tcptraceroute\n the_silver_searcher\n tig\n tmux\n tomcat\n vala\n vcprompt\n vim\n watch\n webkitgtk\n webp\n wildfly-as\n xz\n z; do brew link $i; done
+ git add .gitignore LICENSE Setup.hs app hw11.cabal src stack.yaml test
+ git add LICENSE README.md Setup.hs hw07.cabal src/ stack.yaml test/
+ gradle --stacktrace run
+ grep webkit-gtk /Users/amir/.stack/global-project/stack.yaml
+ h | grep stack
+ h | grep stack |
+ h | grep stack | awk '{$1=""; print }'
+ h | grep stack | awk '{$1=""; print }' | sort -u
+ h | grep stack | awk '{print $2-}'
+ h | grep stack | sort -u
+ history | grep stack
+ kill all -stack
+ killall stack
+ mv jstack takipijstack
+ mv stack.yaml course/
+ mv stackprj projects
+ mv takipijstack projects
+ otool -L /Users/amir/.stack/programs/x86_64-osx/ghc-8.0.1/bin/ghc
+ otool -L `which stack`
+ rm stack.yaml
+ stach exec stack -- --version
+ stack
+ stack --help
+ stack --resolver ghc-8.0.1 setup --reinstall
+ stack --resolver lts-7.7 --install-ghc build
+ stack --resolver lts-7.7 setup --install-ghc build
+ stack --resolver lts-7.7 setup --reinstall
+ stack --verbosity silent exec ghc-mod
+ stack --verbosity silent exec ghc-mod -- $@
+ stack --verbosity silent exec ghc-mod -- check hangman/src/Main.hs
+ stack --verbosity silent exec ghc-mod -- hangman/src/Main.hs
+ stack --version
+ stack -v build
+ stack buid --file-watch
+ stack build
+ stack build -- exec commands
+ stack build -- exec commands Add amir ghama
+ stack build --file-watch
+ stack build --file-watch^K
+ stack build --help
+ stack build --help | grep watch
+ stack build :test
+ stack build Pallet
+ stack build diagrams
+ stack build findpar
+ stack build hdevtools
+ stack build lens
+ stack build pallet
+ stack build pandoc
+ stack build rpar
+ stack build wreq
+ stack buld
+ stack cabal install leksah
+ stack clean
+ stack clean build
+ stack dot
+ stack dot wreq
+ stack exec -- Main
+ stack exec -- Monad
+ stack exec -- aotm
+ stack exec -- atom
+ stack exec -- atom .
+ stack exec -- atom Hw04.hs
+ stack exec -- example
+ stack exec -- ghc --version
+ stack exec -- ghc-mod --version
+ stack exec -- ghc-mod check hangman/src/Main.hs
+ stack exec -- ghci --version
+ stack exec -- ghci 8.0.1
+ stack exec -- hangman
+ stack exec -- hello
+ stack exec -- hungman
+ stack exec -- optex amir
+ stack exec -- optex amir --excited
+ stack exec -- optex amir --help
+ stack exec -- optex amir -e
+ stack exec -- optex amir aka
+ stack exec -- optex amir help
+ stack exec -- parsec test.csv
+ stack exec -- parsecprj < test.csv
+ stack exec -- parsecprj test.csv
+ stack exec -- test
+ stack exec -- vi
+ stack exec -- which ghc
+ stack exec -- which ghc-mod
+ stack exec -- which haddock
+ stack exec --ghc --version
+ stack exec --hangman
+ stack exec --hello
+ stack exec --help
+ stack exec First
+ stack exec a
+ stack exec a.hs
+ stack exec a.o
+ stack exec app
+ stack exec cabal --version
+ stack exec cabal install leksah
+ stack exec cabal update
+ stack exec commands -- Add amir hossein
+ stack exec commands -- add amir hossein
+ stack exec commands -- phone amir 13242
+ stack exec commands -- show amir
+ stack exec diagramTest-exec -- -w 100 -h 100 -o TestDiagram.svg
+ stack exec diagramsTest-exe -- -w 100 -h 100 -o TestDiagram.svg
+ stack exec diagramsTest-exec -- -w 100 -h 100 -o TestDiagram.svg
+ stack exec env
+ stack exec example-exe
+ stack exec firewallsim
+ stack exec firewallsim rules.txt packets.txt
+ stack exec ghc --version
+ stack exec ghc a.hs
+ stack exec ghc-pkg list
+ stack exec ghc-pkg list | grep mtl
+ stack exec ghci --version
+ stack exec grid
+ stack exec grid-exe
+ stack exec higherrank
+ stack exec hw07
+ stack exec hw07-exec
+ stack exec ini
+ stack exec list
+ stack exec optex
+ stack exec optex amir
+ stack exec optex amir --excited
+ stack exec optex amir -e
+ stack exec optex amir e
+ stack exec optex amir excited
+ stack exec readermonad
+ stack exec readermonad '$<#4|variable=cat>'
+ stack exec readermonad template.txt
+ stack exec readermonad template.txt '$<#1>'
+ stack exec readermonad template.txt '$<#2|var=dog>'
+ stack exec readermonad template.txt '===$<no such file>==='
+ stack exec soduko
+ stack exec stack -- --version
+ stack exec statelist
+ stack exec statemonad
+ stack exec which webkit-gtk3
+ stack exec xmonad
+ stack gchi
+ stack ghc -- --supported-extensions
+ stack ghc -- --supported-extensions | less
+ stack ghc --file-watch
+ stack ghc --supported-extensions
+ stack ghc --version
+ stack ghc -o rev reverse.hs
+ stack ghc reverse.hs
+ stack ghc-hw07-exec
+ stack ghc-pkg
+ stack ghc-pkg list
+ stack ghca
+ stack ghci
+ stack ghci --help
+ stack ghci --main-is Spec
+ stack ghci --test
+ stack ghci --version
+ stack ghci -o rev reverse.hs
+ stack ghci : Spec
+ stack ghci :Spec
+ stack ghci :test
+ stack ghci Morse-Test
+ stack ghci Morse-test
+ stack ghci Morse:Morse-test
+ stack ghci Morse:test
+ stack ghci Morse:tests
+ stack ghci exec --version
+ stack ghci morse:test
+ stack ghci morse:tests
+ stack ghci quickprj : Spec
+ stack ghci quickprj:Spec
+ stack ghci test:Spec
+ stack haddock
+ stack init
+ stack init --resolver=lts-8.5 --omit-packages
+ stack init Morse
+ stack init grid
+ stack insall --resolver lts-6.6 codex
+ stack insatll hdevtools
+ stack install
+ stack install --help
+ stack install --only-dependencies
+ stack install --resolver lts-6.6 codex
+ stack install --resolver lts-7.8 hdevtools
+ stack install --resolver nightly-2016-11-12 hoogle
+ stack install --resolver=6.24 hoogle
+ stack install --resolver=lts-4.9 hoobuddy
+ stack install --resolver=lts-4.9.0 hoobuddy
+ stack install --resolver=lts-4.9.0.0 hoobuddy
+ stack install --resolver=lts-5.3 hoobuddy
+ stack install --resolver=lts-6.24 hoogle
+ stack install --resolver=lts-6.4 hoobuddy
+ stack install --resolver=lts-7.7 hoobuddy
+ stack install -v
+ stack install -v hdevtools
+ stack install -v hoogle
+ stack install Cabal
+ stack install Text
+ stack install alex happy
+ stack install atom
+ stack install cabal
+ stack install cabal-install
+ stack install codex
+ stack install csv
+ stack install docvim
+ stack install ebkitgtk3
+ stack install egex-tdfa-text --ghc-options=-XFlexibleContexts
+ stack install ghc
+ stack install ghc-mod
+ stack install ghca
+ stack install ghci
+ stack install gtk2hs-buildtools
+ stack install haddock
+ stack install hakyll
+ stack install haskdogs
+ stack install haskell-docs
+ stack install haskell-ide-engine
+ stack install hasktags
+ stack install hdevtool
+ stack install hdevtools
+ stack install hindent
+ stack install hlint
+ stack install hlint ghc-mod
+ stack install hoobuddy
+ stack install hoogel-5.0.4
+ stack install hoogle
+ stack install hoogle-4.2.34
+ stack install hoogle-4.2.43
+ stack install hoogle-5.0
+ stack install hoogle-5.0.4
+ stack install hscope
+ stack install hspec
+ stack install hugs
+ stack install install gtk2hs-buildtools
+ stack install lekash
+ stack install leksah
+ stack install lushtags
+ stack install neovim-hs
+ stack install nix
+ stack install nvim-hs
+ stack install pandoc
+ stack install pandoc -fhighlighting-kate
+ stack install parconc-examples
+ stack install pointfree
+ stack install regex-tdfa-text --ghc-options=-XFlexibleContexts
+ stack install sandbox
+ stack install stylish-haskell
+ stack install text
+ stack install turtle
+ stack install webkitgtk3
+ stack install wreq
+ stack install xmonad
+ stack leksah
+ stack new
+ stack new Addition simple
+ stack new Morse
+ stack new applicative
+ stack new applicativesection simple --resolver=lts-8.5
+ stack new bookmonadtransformers
+ stack new commands simple --resolver=lts-8.5
+ stack new diagramsTest
+ stack new example
+ stack new fileCounter --solver lts-8.5
+ stack new fileCounter simple --lts-resolver=8.5
+ stack new fileCounter simple --resolver=lts-8.5
+ stack new fileCounter simple --solver lts-8.5
+ stack new fileCounter simple --solver=8.5
+ stack new fileCounter simple --solver=lts-8.5
+ stack new firewallsim simple --resolver=lts-8.5
+ stack new firstwebscotty
+ stack new foldsection simple --resolver=lts-8.5
+ stack new functorsection --resolver=lts-8.5
+ stack new functorsection simple --resolver=lts-8.5
+ stack new grid
+ stack new hangman simple
+ stack new higherrank simple --resolver=lts-8.5
+ stack new hitCounter
+ stack new hw01
+ stack new hw02
+ stack new hw022
+ stack new hw03
+ stack new hw04
+ stack new hw05
+ stack new hw06
+ stack new hw07
+ stack new hw08
+ stack new hw10
+ stack new hw11
+ stack new hw12
+ stack new ini simple --resolver=lts-8.5
+ stack new jsonprj --resolver=lts-8.5
+ stack new jsonprj --resolver=lts=8.5
+ stack new learningpad simple --resolver=lts-8.5
+ stack new monadTPaper --resolver=8.5
+ stack new monadTPaper simple --resolver=8.5
+ stack new monadTPaper simple --resolver=lts-8.5
+ stack new monadTstepByStep simple --resolver=lts-8.5
+ stack new monadsection simple --resolver=lts-8.5
+ stack new monadtransformers
+ stack new monoid
+ stack new optex simple --resolver=lts-8.5
+ stack new parsecprj simple --resolver=lts-8.5
+ stack new parsersection simple --resolver=lts-8.5
+ stack new quickprj
+ stack new readerIO simple --resolver=lts-8.5
+ stack new readermonad
+ stack new semver simple --resolver=lts-8.5
+ stack new stackprj
+ stack new stateList simple --resolver=lts-8.5
+ stack new statemonad
+ stack new statemonadstack
+ stack new statesection simple --resolver=lts-8.5
+ stack new test simple
+ stack new test2 simple
+ stack new traversesection simple --resolver=lts-8.5
+ stack new typeholes
+ stack new vimprj
+ stack path
+ stack path --programs
+ stack path | view -
+ stack reinstall xmonad
+ stack runhaskell reverse.hs
+ stack sandbox init
+ stack setup
+ stack setup --install-cabal
+ stack setup --resolver lts-7.8
+ stack setup 8.0.1
+ stack solver
+ stack templates
+ stack test
+ stack test --file-watch
+ stack test --help
+ stack test -help
+ stack unpack parconc-examples
+ stack update
+ stack update cabal
+ stack upgrade
+ vi ./global-project/stack.yaml
+ vi .stack/config.yaml
+ vi /Users/amir/.stack/config.yaml
+ vi global-project/stack.yaml
+ vi stack.yaml
+ vi stackprj.cabal
+ vim stack.yaml
+ vim statemonadstack.cabal
+ vim ~/.stack/config.yaml
+ vim ~/.stack/global-project/stack.yaml
+ which stack
+ z /Users/amir/.stack
+ z /Users/amir/projects/stackprj
+ z /Users/amir/stackpr
+ z stackprj
